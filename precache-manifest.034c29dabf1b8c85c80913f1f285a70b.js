@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "058f1556050914daf9ffe651ed99f159",
+    "revision": "d19bb96ae03db211d29b295493fb962b",
     "url": "/index.html"
   },
   {
-    "revision": "277b7df13fc38d01ef9c",
+    "revision": "8701314f32581e25fcb5",
     "url": "/static/css/2.c5f7f512.chunk.css"
   },
   {
-    "revision": "894185065349fe8ec401",
-    "url": "/static/css/main.b37c218d.chunk.css"
+    "revision": "7b776f449860224d7e7b",
+    "url": "/static/css/main.fcd4b9d4.chunk.css"
   },
   {
-    "revision": "277b7df13fc38d01ef9c",
-    "url": "/static/js/2.07ad6a72.chunk.js"
+    "revision": "8701314f32581e25fcb5",
+    "url": "/static/js/2.04d23bc7.chunk.js"
   },
   {
     "revision": "1aad56010f9a1ebbd1cd12fdd37d05e7",
-    "url": "/static/js/2.07ad6a72.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.04d23bc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "894185065349fe8ec401",
-    "url": "/static/js/main.de8c3a5b.chunk.js"
+    "revision": "7b776f449860224d7e7b",
+    "url": "/static/js/main.46fb7b5c.chunk.js"
   },
   {
     "revision": "55b823e1be0979da6913",
@@ -124,6 +124,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ElegantIcons.fdd9e757.woff"
   },
   {
+    "revision": "5fb627325e2866f079ed764b7988f90b",
+    "url": "/static/media/FUNDBUCKS.5fb62732.png"
+  },
+  {
+    "revision": "ce4661f09655c2170c4b2dcbcfdab09e",
+    "url": "/static/media/FUNDBUCKS2.ce4661f0.png"
+  },
+  {
     "revision": "c55bc71403cf478dac9fb1111c85d701",
     "url": "/static/media/Google_Play_icon.c55bc714.png"
   },
@@ -198,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5368732efa0e3abf0ed2ddd1b2112f9a",
     "url": "/static/media/action_img.5368732e.png"
+  },
+  {
+    "revision": "d0184cc504a9db0bc6fb9de1d2187713",
+    "url": "/static/media/affichage.d0184cc5.png"
   },
   {
     "revision": "2dbcda6e4f31a843601e0bc9751e6342",
