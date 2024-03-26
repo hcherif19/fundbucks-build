@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply h-full overflow-x-hidden font-normal;
+  }
+  .bg-border-pink {
+    @apply border-[#E6CDFD] border  bg-[#FAF5FF] text-[#A855F7];
+  }
+  .square-bg {
+    position: relative;
+  }
+
+  .square-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100px 100px;
+    background-image: url("https://i.ibb.co/ft59Vfr/996c2b8e-2e63-4f68-b3ae-0ff3dfdfdfdfdfdfdb3768f92.jpg");
+    background-position: right top, right top;
+    background-origin: content-box;
+    background-repeat: repeat;
+    z-index: -1;
+    /* Adjust the opacity value as needed */
+    pointer-events: none; /* Allow clicks to go through the pseudo-element */
+    display: grid;
+
+    filter: grayscale(100%);
+    opacity: 0.1;
+  }
+  @keyframes slideRight {
+    from {
+      transform: translateX(500%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slideRight {
+    animation: slideRight 0.5s forwards;
+  }
+  .blur-transition {
+    transition: filter 0.5s ease; /* Adjust the duration and timing function as needed */
+  }
+}
